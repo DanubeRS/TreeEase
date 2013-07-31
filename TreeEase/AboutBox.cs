@@ -9,11 +9,16 @@ using System.Windows.Forms;
 
 namespace TreeEase
 {
-    public partial class Form1 : Form
+    public partial class AboutBox : Form
     {
-        public Form1()
+        public AboutBox()
         {
             InitializeComponent();
+        }
+
+        private void GithubAddress_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
